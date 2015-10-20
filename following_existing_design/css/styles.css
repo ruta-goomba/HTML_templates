@@ -1,4 +1,4 @@
-html, body, p, li, ul, ol, h1, h2, h3, h4, span, section, article, footer, header, img{
+html, body, p, a, li, ul, ol, h1, h2, h3, h4, span, section, article, footer, header, img{
     margin: 0;
     border: 0;
     padding: 0;
@@ -45,13 +45,13 @@ h3{
     line-height: 0.3;
 }
 
-h4{
+/*h4{
     font-size: 1.6em; font-size: 1.3vw;
     font-family: 'American Typewriter', 'Courier New', Courier, Monaco, mono;
     display: inline;
-}
+}*/
 
-p, span{
+p{
     font-size: 1.55em; font-size: 1.25vw;
     font-family: Raleway;
     margin: 2%;
@@ -88,6 +88,11 @@ hr{
 .top__menu a{
     margin: 2% 0% 0% 14%;
     color: #FFFFFF;
+}
+
+.top__menu a span{
+    font-size: 1.6em; font-size: 1.3vw;
+    font-family: 'American Typewriter', 'Courier New', Courier, Monaco, mono;
 }
 
 .top__menu a:hover{
@@ -219,18 +224,22 @@ footer section{
     background-color: #D0D0D0;
 }
 
-span{
+footer span{
+    font-size: 1.55em; font-size: 1.25vw;
+    font-family: Raleway;
     position: absolute;
-    margin: 17% 0 4% 10%;
+    margin: 17% 0 0% 10%;
     font-size: 1.6em; font-size: 1.2vw;
+    padding-bottom: 2%;
 }
 
 .footer--right--under{
     position: absolute;
     display: inline;
-    margin: 17% 0% 4% 62%;
+    margin: 17% 0% 0% 62%;
     width: 35%;
     height: 8%;
+    padding-bottom: 2%;
 }
 
 .footer--right--under a{
