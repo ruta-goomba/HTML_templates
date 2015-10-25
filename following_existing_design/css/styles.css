@@ -287,7 +287,6 @@ footer span{
     .top{ height: 480px;}
     .middle{ height: 235px;}
     footer { height: 118px;}
-    /*.middle section p{font-size: 1.35em; font-size: 1.36vw;}*/
 }
 
 @media screen and (max-width: 965px) {
