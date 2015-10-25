@@ -67,7 +67,7 @@ a{
     background-image: url(../images/top.jpg);
     background-size: cover;
     background-repeat:no-repeat;
-    height: 90%;
+    height: 600px;
     width: 100%;
     position: relative;
 }
@@ -106,6 +106,7 @@ hr{
     opacity: 0.7;
     margin: 2% 0% 0% 10%;
     position: absolute;
+    overflow: hidden;
 }
 
 .top__box h1{
@@ -157,6 +158,7 @@ hr{
     height: 80%;
     position: absolute;
     margin: 2% 0.5% 2% 10%;
+    overflow: hidden;
 }
 
 .middle__images{
@@ -193,6 +195,7 @@ footer section{
     border-right: 5px solid #E8E8E8;
     border-top:2px solid #F8F8F8;
     border-left:2px solid #F8F8F8;
+    overflow: hidden;
 }
 
 .footer--left{
@@ -259,3 +262,165 @@ footer span{
 #footer--right--under__privacy{
     margin-left: 50%;
 }
+
+@media screen and (max-width: 2565px) {
+    .top{height: 1200px;}
+    .middle{ height: 600px;}
+    footer{height: 300px;}
+}
+
+@media screen and (max-width: 1605px) {
+    .top{height: 770px;}
+    .middle{ height: 385px;}
+    footer{height: 193px;}
+}
+
+@media screen and (max-width: 1450px) {
+    .top{height: 650px;}
+    .middle{ height: 325px;}
+    footer{height: 163px;}
+}
+
+@media screen and (max-width: 1300px) {
+    .top{height: 590px;}
+    .middle{ height: 295px;}
+    footer{height: 148px;}
+}
+
+@media screen and (max-width: 1150px) {
+    .top{height: 540px;}
+}
+
+@media screen and (max-width: 1065px) {
+    .top{ height: 480px;}
+    .middle{ height: 235px;}
+    footer { height: 118px;}
+    /*.middle section p{font-size: 1.35em; font-size: 1.36vw;}*/
+}
+
+@media screen and (max-width: 965px) {
+    .top{height: 440px;}
+    .middle{ height: 220px;}
+    footer{height: 110px;}
+}
+
+@media screen and (max-width: 875px) {
+     .top{height: 420px;}
+}
+
+@media screen and (max-width: 805px) {
+    .top{height: 385px;}
+    .middle{ height: 193px;}
+    footer{height: 97px;}
+}
+
+@media screen and (max-width: 770px) {
+    .top{height: 370px;}
+    .middle{ height: 185px;}
+    footer{height: 93px;}
+}
+
+@media screen and (max-width: 750px) {
+    .top{height: 340px;}
+    .top__box{width: 43%;}
+    .middle{ height: 170px;}
+    footer{height: 85px;}
+}
+
+@media screen and (max-width: 695px) {
+    .top{
+        height: 470px;
+        background-image: url(../images/top2.jpg);
+    }
+    .top__box{
+        margin: 5% 0% 0% 13%;
+        width: 74%;
+    }
+    /*h1, h3, .top__menu a{ color: #000000;}*/
+    h1{font-size: 3.4em; font-size: 4.9vw;}
+    h3{font-size: 2.9em; font-size: 4.2vw;}
+    hr {background: #000000;}
+    .top__box h1, .top__box p{ text-align: center;}
+    .top__box h1{font-size: 2.4em; font-size: 3.7vw;}
+    .top__box p{font-size: 1.5em; font-size: 2.1vw;}
+    .top__box a{
+        margin: 4% 0% 6% 33%;
+        font-size: 1.1em; font-size: 1.58vw;
+    }
+    .top__menu{width: 80%;}
+    .top__menu a span {font-size: 1.17em; font-size: 1.71vw;}
+    h2{font-size: 2.2em;font-size: 3.2vw;}
+    p{font-size: 1.3em;font-size: 1.9vw;}
+    .middle{ height: 400px;}
+    .middle section{
+        width: 80%;
+        height: 90%;
+    }
+    .middle__images {
+        width: 80%;
+        margin: 32% 0% 0% 10%;
+    }
+    .middle__images img{
+        width: 24%;
+        height: 33%;
+        margin-left: 7%;
+    }
+    #middle__images_img4{ display: none;}
+    footer{height: 80px;}
+    footer section{height: 90%;}
+    .footer--left h2{
+        font-size: 1.8em;font-size: 2.6vw;
+        padding: 2%;
+    }
+    .footer--left p{
+        font-size: 1.25em;font-size: 1.8vw;
+        padding: 0% 0% 2% 2%;
+    }
+    .footer--right__button{font-size: 1.1em;font-size: 1.5vw;}
+}
+
+@media screen and (max-width: 645px) {
+    .top{height: 440px;;}
+    .middle{ height: 380px;}
+    footer{height: 83px;}
+}
+
+@media screen and (max-width: 600px) {
+    .top{height: 410px;}
+    .middle{ height: 360px;}
+    footer{height: 78px;}
+}
+
+@media screen and (max-width: 570px) {
+    .top{height: 380px;}
+    .middle{ height: 335px;}
+    footer{height: 73px;}
+}
+
+@media screen and (max-width: 535px) {
+    .top{height: 365px;}
+    .middle{ height: 320px;}
+    footer{height: 69px;}
+}
+
+@media screen and (max-width: 483px) {
+    .top{height: 325px;}
+    .middle{ height: 300px;}
+    footer{height: 62px;}
+}
+
+@media screen and (max-width: 416px) {
+     .top{height: 290px;}
+     .middle{ height: 240px;}
+     footer{height: 51px;}
+ }
+
+@media screen and (max-width: 377px) {
+    .top{height: 270px;}
+    .middle{ height: 220px;}
+    footer{height: 42px;}
+}
+/*
+@media screen and (max-width: 362px) {
+    .top{height: 185px;}
+}*/
