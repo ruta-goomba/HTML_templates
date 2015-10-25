@@ -23,9 +23,16 @@ body{
     height: 100%;
 }
 
+h1, h2{
+    font-family: 'American Typewriter', 'Courier New', Courier, Monaco, mono;
+}
+
+h3, p{
+    font-family: Raleway;
+}
+
 h1{
     font-size: 3.7em; font-size: 2.9vw;
-    font-family: 'American Typewriter', 'Courier New', Courier, Monaco, mono;
     text-align: center;
     color: #FFFFFF;
     padding-top: 1%;
@@ -33,27 +40,18 @@ h1{
 
 h2{
     font-size: 2.5em; font-size: 2vw;
-    font-family: 'American Typewriter', 'Courier New', Courier, Monaco, mono;
     margin: 2%;
 }
 
 h3{
     font-size: 3.5em; font-size: 2.625vw;
-    font-family: Raleway;
     text-align: center;
     color: #FFFFFF;
     line-height: 0.3;
 }
 
-/*h4{
-    font-size: 1.6em; font-size: 1.3vw;
-    font-family: 'American Typewriter', 'Courier New', Courier, Monaco, mono;
-    display: inline;
-}*/
-
 p{
     font-size: 1.55em; font-size: 1.25vw;
-    font-family: Raleway;
     margin: 2%;
     line-height: 1.5;
 }
@@ -185,11 +183,18 @@ footer{
     position: relative;
 }
 
+footer section, .footer--left, .footer--right, .footer--right__button, footer span, .footer--right--under, .footer--right--under a{
+    position: absolute;
+}
+
+.footer--left, .footer--right, .footer--right--under{
+    display: inline;
+}
+
 footer section{
     background-color: #F0F0F0;
     width: 80%;
     height: 80%;
-    position: absolute;
     margin: 2% 0.5% 2% 10%;
     border-bottom:5px solid #E8E8E8;
     border-right: 5px solid #E8E8E8;
@@ -201,54 +206,41 @@ footer section{
 .footer--left{
     width: 60%;
     height: 100%;
-    position: absolute;
-    display: inline;
 }
 
 .footer--right{
     width: 39%;
     height: 100%;
     margin-left: 60%;
-    position: absolute;
-    display: inline;
 }
 
 .footer--right__button{
     font-family: 'American Typewriter', 'Courier New', Courier, Monaco, mono;
-    font-size: 1.6em; font-size: 1.2vw;
     padding: 4% 10% 4% 10%;
     border: 3px solid #000000;
     border-radius: 10%;
     margin: 10% 0% 0% 40%;
-    position: absolute;
 }
 
 .footer--right__button:hover{
     background-color: #D0D0D0;
 }
 
-footer span{
-    font-size: 1.55em; font-size: 1.25vw;
+footer span, .footer--right--under a, .footer--right__button{
     font-family: Raleway;
-    position: absolute;
-    margin: 17% 0 0% 10%;
     font-size: 1.6em; font-size: 1.2vw;
+}
+
+footer span{
+    margin: 17% 0 0% 10%;
     padding-bottom: 2%;
 }
 
 .footer--right--under{
-    position: absolute;
-    display: inline;
     margin: 17% 0% 0% 62%;
     width: 35%;
     height: 8%;
     padding-bottom: 2%;
-}
-
-.footer--right--under a{
-    position: absolute;
-    font-family: Raleway;
-    font-size: 1.6em; font-size: 1.2vw;
 }
 
 .footer--right--under a:hover{
@@ -336,7 +328,6 @@ footer span{
         margin: 5% 0% 0% 13%;
         width: 74%;
     }
-    /*h1, h3, .top__menu a{ color: #000000;}*/
     h1{font-size: 3.4em; font-size: 4.9vw;}
     h3{font-size: 2.9em; font-size: 4.2vw;}
     hr {background: #000000;}
@@ -420,7 +411,4 @@ footer span{
     .middle{ height: 220px;}
     footer{height: 42px;}
 }
-/*
-@media screen and (max-width: 362px) {
-    .top{height: 185px;}
-}*/
+
